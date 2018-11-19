@@ -1,0 +1,122 @@
+.cl1 {
+    padding: 10px 0;
+    transition: padding 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.cl1.cl2 {
+    padding: 2px 0;
+}
+
+.banner {
+    background: #E8242B;
+}
+
+.banner img {
+    width: 390px;
+}
+
+.banner_logo {
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+.banner_logo i{
+    font-size: 40px;
+}
+
+.nav_area {
+    background: #E00000;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.collapse .navbar-nav li:hover {
+    background: green;
+    transition: 1s;
+    border-radius: 3px;
+    transition-timing-function: ease-in-out;
+}
+
+.collapse .navbar-nav li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about_area {
+    background: #ecf0f1;
+    padding: 100px 0;
+    }
+
+.about_text_1 {
+    border: 1px solid red;
+    border-radius: 5px;
+    line-height: 1.9;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.about_text_1 {
+    border: 1px solid red;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.service_area {
+    padding: 60px 0;
+    background: #f1c40f;
+}
+
+.service_area .row .card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partners_area {
+    padding: 60px 0;
+    background: #e84118;
+    z-index: -1;
+}
+
+.item {
+    background: green;
+    height: 140px;
+}
+
+.footer_area {
+    padding: 70px 0 20px 0;
+    background: #bdc3c7;
+}
+
+.footer_title {
+    border-bottom: 2px solid red;
+}
+
+.partners_area, .owl-carousel {
+    z-index:1;
+}
+
+
+.owl-carousel {
+    z-index:;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
